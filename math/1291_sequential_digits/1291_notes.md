@@ -1,38 +1,28 @@
-# 2685. Count the Number of Complete Components
+# 1291. Sequential Digits
 
 > **Difficulty:** Medium  
-> **Topics:** Graphs, DFS  
-> **Pattern:** Connected Components
+> **Topics:** Enumeration, DFS  
+> **Pattern:** 
+> **Link:** https://leetcode.com/problems/sequential-digits/
 
 ---
 
-## 💡 First Approach
 
-### Idea
-
-...
-
-### Why it failed
-
-...
-
----
-
-## ✅ Final Approach
+##  Approach to solution 1
 
 ### Key Insight
 
-...
+generate an array of all the possible sequential numbers and push the ones within the range to the answer array.
 
 ### Algorithm
 
-1.
+1. 
 2.
 3.
 
 ### Why it works
 
-...
+there's not too many possible sequential numbers
 
 ---
 
@@ -44,7 +34,7 @@
 
 ---
 
-## 📚 Takeaways
+##  Takeaways
 
 - ...
 - ...
