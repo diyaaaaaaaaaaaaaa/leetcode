@@ -54,3 +54,5 @@ Time is O(1) since loops are over constants (less than 9)
 - stoi() converts strings to integers
 - substr(pos, len)
 - think sliding window whenever substrings
+
+![submission ss](image.png)
