@@ -44,3 +44,5 @@ The fact that 4 divisors would only exist if n is a perfect cube (n=1*p*p^2*p^3)
 - only loop till sqrt(n) when working with divisors for (int i = 1; i * i <= n; i++)
 - whole squares work a lil different as unique divisors are to be counted if(nums[i]/j == j)
 - 4 divisors would only exist if n is a perfect cube (n=1*p*p^2*p^3) or n=1*p*q*pq
+
+![1340 submission ](image.png)
