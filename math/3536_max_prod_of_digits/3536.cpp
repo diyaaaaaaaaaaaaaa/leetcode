@@ -1,0 +1,15 @@
+#include <vector>
+using namespace std;
+class Solution {
+public:
+    int maxProduct(int n) {
+        vector<int> digits;
+        while(n){
+            digits.push_back(n%10);
+            n/=10;
+        }
+        sort(digits.begin(),digits.end());
+
+        return digits[digits.size()-1] * digits[digits.size()-2];
+    }
+};
