@@ -4,7 +4,7 @@ using namespace std;
 class Solution {
 public:
     bool validPath(int n, vector<vector<int>>& edges, int source, int destination) {
-        vector<int> adj[n];
+        vector<int> adj[n];  //a vector of vectors
         if (source==destination) return true;
         
         for(int i=0;i<edges.size();i++){
@@ -15,7 +15,7 @@ public:
         }
 
         queue<int>q;
-        vector<int> visited(n,0);
+        vector<int> visited(n,0); //a vector of int, here 0.
 
         //starting node
         visited[source]=1;

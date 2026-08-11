@@ -1,6 +1,7 @@
 # 1971. Find if path exists in a graph 
 > **Difficulty:**   easy
 > **Topics:** graphs, connected components, bfs
+> **Link:**https://leetcode.com/problems/find-if-path-exists-in-graph/description/
 
 ---
 
@@ -15,7 +16,8 @@
 4. mark vis[source]=1 and push the source node into the q.
 5. Till q is non empty
      - if the fron of q is the destination node, return true
-     - if not, pop the front node from q, and take its adjacent nodes from our adj vector, mark them as 1 in the vis array and push them into q.
+     - if not, pop the front node from q,
+               and take its adjacent nodes from our adj vector, mark them as 1 in the vis array and push them into q.
 6. if destination is not found till q empties, return false.
 ---
 
@@ -32,4 +34,9 @@
 - IN graph questions, adjacency list or array of edges is always given along with the number of nodes 'n'.
 - first bfs qn
 
+### MISTAKES in vector initialisation
+- vector<int> adj[n+1]
+       a vector if vectors
+- vector<int> vis(n+1)
+        a vector of ints
 ![submission ss](image.png)
