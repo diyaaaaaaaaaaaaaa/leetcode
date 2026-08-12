@@ -6,19 +6,7 @@
 
 ---
 
-##  First Approach
-
-### Idea
-
-...
-
-### Why it failed
-
-...
-
----
-
-##  Final Approach
+##  Approach
 
 ### Key Insight
 
