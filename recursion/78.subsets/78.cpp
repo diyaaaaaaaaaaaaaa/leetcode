@@ -25,3 +25,6 @@ public:
         return ans;
     }
 };
+
+//smol- all the subsequences
+//ans- vector of all the subsequences
